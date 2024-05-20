@@ -37,7 +37,7 @@ Code Steps:
 
 '''
 
-x,y = 5,2
+x,y = 7,2
 screen = 0
 x_place = 0
 x_left = 0
