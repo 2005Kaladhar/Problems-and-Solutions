@@ -36,8 +36,11 @@ Code Steps:
 
 
 '''
+#Taking input from single line, example - 13 13
+# 1 3, this will be treated as a string, using split we create a list of these values and then using lambda function we apply int function on each of the elements of the list
+x,y = map(lambda x : int(x),input().split())
 
-x,y = 7,2
+
 screen = 0
 x_place = 0
 x_left = 0
